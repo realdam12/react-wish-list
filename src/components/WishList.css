@@ -1,0 +1,28 @@
+.WishList{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.WishList > input{
+    border: none;
+    border-bottom: 1px solid #dcdcdc;
+    padding: 15px 0;
+}
+
+.WishList > input:focus{
+    outline: none;
+    border-bottom: 1px solid #38608f;
+}
+
+.wishs-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.isDone .content,
+.isDone{
+    text-decoration: line-through;
+    color: gray;
+}

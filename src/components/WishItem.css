@@ -1,0 +1,64 @@
+.WishItem {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.WishItem input[type='checkbox'] {
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+    accent-color: #38608f;
+    cursor: pointer;
+}
+
+.WishItem .main-wrap {
+    flex: 1;
+    min-width: 0;
+}
+
+.WishItem .content-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.WishItem .content {
+    overflow-wrap: anywhere;
+}
+
+
+
+.WishItem .btn-wrap {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 8px;
+    margin-left: auto;
+}
+
+.WishItem .date {
+    margin: 0;
+    color: gray;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.WishItem .btn-wrap button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.WishItem .updateBtn {
+    background-color: rgb(95, 180, 119);
+}
+
+.WishItem .deleteBtn {
+    background-color: rgb(219, 90, 67);
+}
